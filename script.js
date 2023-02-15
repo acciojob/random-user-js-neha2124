@@ -1,5 +1,5 @@
 //your code here
-const user = document.getElementById('user')
+const user = document.getElementById('getUser')
 const email = document.getElementById('email')
 const phone = document.getElementById('phone')
 const age = document.getElementById('age')
