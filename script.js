@@ -15,7 +15,7 @@ const data = await response.json();
 	
 }
 function display (user){
-	profileImg.setAttribute('src',`${user.picture.medium}`)
+	profileImg.setAttribute('src',`${user.picture.large}`)
       profileName.innerHTML = `${user.name.first} ${user.name.last}`
 age.addEventListener('click',()=>{
 
