@@ -45,6 +45,6 @@ function newUser (){
 }
 					  
 user.addEventListener('click',newUser)
-					  
+	randomuser()				  
 	
 
