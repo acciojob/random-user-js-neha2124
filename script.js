@@ -11,9 +11,11 @@ async function randomuser() {
 const response = await fetch ("https://randomuser.me/api/")
 const data = await response.json();
 	const user = data.results[0]
-	display(user)
+	return user
 	
 }
+
+	console.log(randomuser())
 function display (user){
 	profileImg.setAttribute('src',`${user.picture.large}`)
       profileName.innerHTML = `${user.name.first} ${user.name.last}`
